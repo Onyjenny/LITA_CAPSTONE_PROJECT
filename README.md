@@ -31,5 +31,13 @@ The primary source of data used here is  which is provided by LITA during the ex
 
 ### Data Cleaning and Preparation
 
+In the initial phase of the data cleaning and preparation,we performed the following actions;
+1. data loading and inspections
+2. handling missing variables
+3. data cleaning and formatting
+
+### Exploratory Data Analysis
+EDA involved the exploring of the data to answer some questions about the data such as;
+
 
 
