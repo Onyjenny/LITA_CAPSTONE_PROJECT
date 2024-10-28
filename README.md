@@ -26,8 +26,10 @@ The primary source of data used here is  which is provided by LITA during the ex
  - Structured Query Language (SQL)
    1. for quering
    2. extraction and manipulation of data
- - PowerBI
-   1. for building interactive dashboards
-   2. visual representations for Business Intelligence
+ - PowerBI for report
  - Github for portfolio building.
+
+### Data Cleaning and Preparation
+
+
 
