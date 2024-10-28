@@ -14,4 +14,14 @@ The primary aim of this project was to utilize data analysis techniques to uncov
 - Highlight trends and patterns that can inform strategic decisions.
 - Provide a comprehensive narrative that translates complex data into understandable insights.
 
-  ### Data Source
+### Data Source
+
+The primary source of data used here is  which is provided by LITA during the excel class.
+
+ ### Tools Used
+
+ - Microsoft excel for data cleaning,analysis and visualization
+ - Structured Query Language SQL for quering of data
+ - PowerBI for
+ - Github for portfolio building.
+
