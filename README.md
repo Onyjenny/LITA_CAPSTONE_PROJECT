@@ -20,8 +20,14 @@ The primary source of data used here is  which is provided by LITA during the ex
 
  ### Tools Used
 
- - Microsoft excel for data cleaning,analysis and visualization
- - Structured Query Language SQL for quering of data
- - PowerBI for
+ - Microsoft excel
+   1. for data cleaning
+   2. analysis and visualization
+ - Structured Query Language (SQL)
+   1. for quering
+   2. extraction and manipulation of data
+ - PowerBI
+   1. for building interactive dashboards
+   2. visual representations for Business Intelligence
  - Github for portfolio building.
 
