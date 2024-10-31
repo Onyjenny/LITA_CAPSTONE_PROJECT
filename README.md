@@ -73,7 +73,7 @@ I was able deduced that the top selling product is shoe with a value of 613,380 
 
 Excel formula was also used to calculate average sales per product  and total revenue by region,the formular used is;
 
-``` =AVERAGEIF(C2:C9922,C2,H2:H9923) SOCKS = 122 
+ =AVERAGEIF(C2:C9922,C2,H2:H9923) SOCKS = 122 
 
 =AVERAGEIF(C2:C9922,C9899,H2:H9923) GLOVES  = 200
 
@@ -83,11 +83,11 @@ Excel formula was also used to calculate average sales per product  and total re
 
 =AVERAGEIF(C2:C9922,C3473,H2:H9923) SHIRT = 327
 
-=AVERAGEIF(C2:C9922,C1486,H2:H9923) SHOES```  = 309
+=AVERAGEIF(C2:C9922,C1486,H2:H9923) SHOES  = 309
 
 After sorting my product column,I was able to calculate average for each product
 
-``` =SUM(H2:H9922)``` = 2101090 as Total revenue
+=SUM(H2:H9922) = 2101090 as Total revenue
 
 
 ```SQL
@@ -95,7 +95,53 @@ After sorting my product column,I was able to calculate average for each product
 SELECT Product,SUM(Quantity * UnitPrice) AS Total_sales 
 FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
-ORDER BY 2 DESC;```
+ORDER BY 2 DESC;
+
+SELECT Region,COUNT(Revenue) AS Number_of_Sales
+FROM [dbo].[LITACapstoneDataset]
+GROUP BY Region
+ORDER BY 2 DESC;
+
+SELECT Product,SUM(Revenue) AS Total_sales 
+FROM [dbo].[LITACapstoneDataset]
+GROUP BY Product
+ORDER BY Total_sales DESC;
+
+SELECT Product, SUM(Revenue) AS Total_Revenue
+FROM [dbo].[LITACapstoneDataset]
+GROUP BY Product;
+
+SELECT MONTH (OrderDate) AS Month,SUM(Revenue) AS Total_sales
+FROM [dbo].[LITACapstoneDataset]
+WHERE YEAR(OrderDate) = YEAR (GETDATE())
+GROUP BY MONTH (OrderDate)
+ORDER BY MONTH;
+
+
+
+```SELECT TOP 5 Customer_Id, SUM (Revenue) AS Total_purchase_amount
+FROM [dbo].[LITACapstoneDataset]
+GROUP BY Customer_Id
+ORDER BY Total_purchase_amount DESC;```
+
+--- 7 calculate the percentage of total sales contributed by each region---
+ 
+SELECT Region, SUM(Revenue) AS Region_sales,
+  COUNT(Revenue) * 100.0 /Sum (COUNT(Revenue))
+  OVER() AS Sales_percentage
+FROM [dbo].[LITACapstoneDataset]
+GROUP BY Region
+
+SELECT * FROM [dbo].[LITACapstoneDataset]
+---8 identify products with no sales in the last quarter---
+
+SELECT Product
+FROM [dbo].[LITACapstoneDataset]
+GROUP BY Product
+HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());
+
+
+
 
 
 
