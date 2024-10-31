@@ -69,7 +69,7 @@ regional breakdowns.
 
 These pivot table summarizes the total sales by product,region,month and Average sales per product,total revenue by region.
 
-I was able deduced that the top selling product is shoe with a value of 613,380 and the least selling product is socks with a value of 180,785.Also the South region has the highest revenue  which is 927,820 while the west region has the least revenue has 
+I was able deduced that the top selling product is shoe with a value of 613,380 and the least selling product is socks with a value of 180,785.Also the South region has the highest revenue  which is 927,820 while the west region has the least revenue has 300,345.
 
 Excel formula was also used to calculate average sales per product  and total revenue by region,the formular used is;
 
@@ -90,6 +90,13 @@ After sorting my product column,I was able to calculate average for each product
 ``` =SUM(H2:H9922)``` = 2101090 as Total revenue
 
 
+```SQL```
+
+---1 Total sales for each Product category----
+```SELECT Product,SUM(Quantity * UnitPrice) AS Total_sales ```
+FROM [dbo].[LITACapstoneDataset]
+GROUP BY Product
+ORDER BY 2 DESC;
 
 
 
