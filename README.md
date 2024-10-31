@@ -73,31 +73,29 @@ I was able deduced that the top selling product is shoe with a value of 613,380 
 
 Excel formula was also used to calculate average sales per product  and total revenue by region,the formular used is;
 
-``` =AVERAGEIF(C2:C9922,C2,H2:H9923) SOCKS``` = 122 
+``` =AVERAGEIF(C2:C9922,C2,H2:H9923) SOCKS = 122 
 
-```=AVERAGEIF(C2:C9922,C9899,H2:H9923) GLOVES ``` = 200
+=AVERAGEIF(C2:C9922,C9899,H2:H9923) GLOVES  = 200
 
-```=AVERAGEIF(C2:C9922,C6448,H2:H9923) HAT ```= 159
+=AVERAGEIF(C2:C9922,C6448,H2:H9923) HAT = 159
 
-```=AVERAGEIF(C2:C9922,C4960,H2:H9923) JACKET``` =140
+=AVERAGEIF(C2:C9922,C4960,H2:H9923) JACKET =140
 
-```=AVERAGEIF(C2:C9922,C3473,H2:H9923) SHIRT``` = 327
+=AVERAGEIF(C2:C9922,C3473,H2:H9923) SHIRT = 327
 
-```=AVERAGEIF(C2:C9922,C1486,H2:H9923) SHOES```  = 309
+=AVERAGEIF(C2:C9922,C1486,H2:H9923) SHOES```  = 309
 
 After sorting my product column,I was able to calculate average for each product
 
 ``` =SUM(H2:H9922)``` = 2101090 as Total revenue
 
 
-```SQL```
+```SQL
 
----1 Total sales for each Product category----
-
-```SELECT Product,SUM(Quantity * UnitPrice) AS Total_sales ```
-```FROM [dbo].[LITACapstoneDataset]```
-```GROUP BY Product```
-```ORDER BY 2 DESC;```
+SELECT Product,SUM(Quantity * UnitPrice) AS Total_sales 
+FROM [dbo].[LITACapstoneDataset]
+GROUP BY Product
+ORDER BY 2 DESC;```
 
 
 
