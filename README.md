@@ -63,5 +63,8 @@ Write queries to extract key insights based on the following questions.
 dashboard should include a sales overview, top-performing products, and
 regional breakdowns.
 
-### Solution
+### Results and Interpretation
+
+<img width="952" alt="Excel 1" src="https://github.com/user-attachments/assets/67e7a74a-5d6a-4651-83cf-0bcbb1805b5d">
+
 
