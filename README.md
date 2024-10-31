@@ -93,10 +93,11 @@ After sorting my product column,I was able to calculate average for each product
 ```SQL```
 
 ---1 Total sales for each Product category----
+
 ```SELECT Product,SUM(Quantity * UnitPrice) AS Total_sales ```
-FROM [dbo].[LITACapstoneDataset]
-GROUP BY Product
-ORDER BY 2 DESC;
+```FROM [dbo].[LITACapstoneDataset]```
+```GROUP BY Product```
+```ORDER BY 2 DESC;```
 
 
 
