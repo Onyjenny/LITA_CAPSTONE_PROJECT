@@ -92,25 +92,30 @@ After sorting my product column,I was able to calculate average for each product
 
 ```SQL
 
+---1 Total sales for each Product category----
 SELECT Product,SUM(Quantity * UnitPrice) AS Total_sales 
 FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
 ORDER BY 2 DESC;
 
+----2 Number of sales Transaction in each Region---
 SELECT Region,COUNT(Revenue) AS Number_of_Sales
 FROM [dbo].[LITACapstoneDataset]
 GROUP BY Region
 ORDER BY 2 DESC;
 
+---3 Highest selling Product by Total sales value---
 SELECT Product,SUM(Revenue) AS Total_sales 
 FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
 ORDER BY Total_sales DESC;
 
+--- 4 Total Revenue per Product---
 SELECT Product, SUM(Revenue) AS Total_Revenue
 FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product;
 
+---5 Monthly sales totals for the current year---
 SELECT MONTH (OrderDate) AS Month,SUM(Revenue) AS Total_sales
 FROM [dbo].[LITACapstoneDataset]
 WHERE YEAR(OrderDate) = YEAR (GETDATE())
@@ -118,11 +123,11 @@ GROUP BY MONTH (OrderDate)
 ORDER BY MONTH;
 
 
-
-```SELECT TOP 5 Customer_Id, SUM (Revenue) AS Total_purchase_amount
+---- 6 Top 5 customers by Total purchase amount---
+SELECT TOP 5 Customer_Id, SUM (Revenue) AS Total_purchase_amount
 FROM [dbo].[LITACapstoneDataset]
 GROUP BY Customer_Id
-ORDER BY Total_purchase_amount DESC;```
+ORDER BY Total_purchase_amount DESC;
 
 --- 7 calculate the percentage of total sales contributed by each region---
  
@@ -138,7 +143,7 @@ SELECT * FROM [dbo].[LITACapstoneDataset]
 SELECT Product
 FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
-HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());
+HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());```
 
 
 
