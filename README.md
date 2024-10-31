@@ -1,4 +1,4 @@
-# LITA_CAPSTONE_PROJECT
+![image](https://github.com/user-attachments/assets/20fc42bb-5216-4cd0-8fac-abb33f8a650b)# LITA_CAPSTONE_PROJECT
 
 ### Project Title: Sales Performance Analysis for a Retail Store 
 
@@ -66,5 +66,10 @@ regional breakdowns.
 ### Results and Interpretation
 
 <img width="952" alt="Excel 1" src="https://github.com/user-attachments/assets/67e7a74a-5d6a-4651-83cf-0bcbb1805b5d">
+
+These pivot table summarizes the total sales by product,region,month and Average sales per productc,total revenue by region
+Excel formula was also used to calculate average sales per product  and total revenue by region,the formular used is;
+``` =AVERAGEIF(C2:C9922,C2,H2:H9923) SOCKS 122 ```
+
 
 
