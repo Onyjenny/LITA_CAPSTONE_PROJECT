@@ -18,7 +18,8 @@ The primary aim of this project was to utilize data analysis techniques to uncov
 
 The primary source of data used here is  which is provided by LITA during the excel class.
 
- ### Tools Used
+### Methodology
+This project employeed a structured approach involving various data analysis tools and techniques:
 
  - Microsoft excel  [Download Here](https://www.microsoft.com)
    1. for data cleaning
@@ -26,12 +27,12 @@ The primary source of data used here is  which is provided by LITA during the ex
  - Structured Query Language (SQL)
    1. for quering
    2. extraction and manipulation of data
- - PowerBI for report
+ - PowerBI for visualization and report
  - Github for portfolio building.
 
 ### Data Cleaning and Preparation
 
-In the initial phase of the data cleaning and preparation,we performed the following actions;
+In the initial phase of the data cleaning and preparation,the following actions was performed;
 1. data loading and inspections
 2. handling missing variables
 3. data cleaning and formatting
@@ -62,5 +63,5 @@ Write queries to extract key insights based on the following questions.
 dashboard should include a sales overview, top-performing products, and
 regional breakdowns.
 
-
+### Solution
 
