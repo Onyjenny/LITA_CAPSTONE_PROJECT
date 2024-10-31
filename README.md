@@ -145,6 +145,7 @@ FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
 HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());```
 
+
 ### Data visualization
 
 Interactive dashboards and visual representations were created to make the insights found in excel and SQL accessible and engaging such as overview of all sales,top performing product and the regional breakdowns using PowerBI.
