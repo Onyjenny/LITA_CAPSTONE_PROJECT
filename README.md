@@ -143,8 +143,8 @@ SELECT * FROM [dbo].[LITACapstoneDataset]
 SELECT Product
 FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
-HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());```
-
+HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());
+```
 
 ### Data visualization
 
