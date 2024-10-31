@@ -16,7 +16,7 @@ The primary aim of this project was to utilize data analysis techniques to uncov
 
 ### Data Source
 
-The primary source of data used here is  which is provided by LITA during the excel class.
+The primary source of data used here is Lita Capstone Dataset.xlsx which was provided by the INCUBATOR HUB as a project work for every student. 
 
 ### Methodology
 This project employeed a structured approach involving various data analysis tools and techniques:
