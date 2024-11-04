@@ -69,7 +69,7 @@ regional breakdowns.
 
 These pivot table summarizes the total sales by product,region,month and Average sales per product,total revenue by region.
 
-I was able to deduce that the top selling product is 'shoe' with a value of 613,380 and the least selling product is 'socks' with a value of 180,785.Also the 'South' region has the highest revenue  which is 927,820 while the 'west' region has the least revenue has 300,345.In the year 2023,Sales was made in the month of February to and the total revenuue is 1,105,330 while in 2024 sales was made in the month of February to July, total revenue is 995,760 and both year totals a revenue of 210100
+I was able to deduce that the top selling product is 'shoe' with a value of 613,380 and the least selling product is 'socks' with a value of 180,785.Also the 'South' region has the highest revenue  which is 927,820 while the 'west' region has the least revenue has 300,345.In the year 2023,Sales was made in the month of January to December and  February has the higest revenue of '247,500' while April has the slowest sales with revenue of '7,425' and the total revenuue for 2023 is 1,105,330. While in 2024 sales was made in the month of February to July, February is also the highest sales month with revenue of '' and July the slow sales month with revenue of ''total revenue is 995,760 and both year totals a revenue of 210100
 
 Excel formula was also used to calculate average sales per product  and total revenue by region,the formular used is;
 
