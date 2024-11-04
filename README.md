@@ -69,7 +69,7 @@ regional breakdowns.
 
 These pivot table summarizes the total sales by product,region,month and Average sales per product,total revenue by region.
 
-I was able deduced that the top selling product is shoe with a value of 613,380 and the least selling product is socks with a value of 180,785.Also the South region has the highest revenue  which is 927,820 while the west region has the least revenue has 300,345.
+I was able to deduce that the top selling product is 'shoe' with a value of 613,380 and the least selling product is 'socks' with a value of 180,785.Also the 'South' region has the highest revenue  which is 927,820 while the 'west' region has the least revenue has 300,345.
 
 Excel formula was also used to calculate average sales per product  and total revenue by region,the formular used is;
 
@@ -148,10 +148,9 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());
 
 ### Data visualization
 
-Interactive dashboards and visual representations were created to make the insights found in excel and SQL accessible and engaging such as overview of all sales,top performing product and the regional breakdowns using PowerBI.
+Interactive dashboards and visual representations were created to make the insights found in excel, SQL accessible and engaging such as overview of all sales,top performing product and the regional breakdowns using PowerBI.
 
 
-
-
+<img width="612" alt="capstone sales" src="https://github.com/user-attachments/assets/c65fb2d2-cdd0-4a8f-824e-f8fb60d7e06c">
 
 
