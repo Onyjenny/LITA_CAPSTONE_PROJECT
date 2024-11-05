@@ -154,3 +154,5 @@ Interactive dashboards and visual representations were created to make the insig
 <img width="612" alt="capstone sales" src="https://github.com/user-attachments/assets/c65fb2d2-cdd0-4a8f-824e-f8fb60d7e06c">
 
 ### Conclusion
+
+This project not only showcased the power of data analysis but also emphasized the importance of translating data into compelling stories.By leveraging data insights,we are able to make informed decisions that propels us towards our objectives and ensure sustained success.
