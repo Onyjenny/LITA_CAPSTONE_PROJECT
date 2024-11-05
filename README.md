@@ -148,7 +148,7 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());
 
 ### Data visualization
 
-Interactive dashboards and visual representations were created to make the insights found in excel, SQL accessible and engaging such as overview of all sales,top performing product and the regional breakdowns using PowerBI.The visuals shows the highest selling product which is 'shoe',the region with the highest revenue which is 'south'.The number of transactions in each region was also captured.
+Interactive dashboards and visual representations were created to make the insights found in excel, SQL accessible and engaging such as overview of all sales,top performing product and the regional breakdowns using PowerBI.The visuals shows the highest selling product which is 'shoe',the region with the highest revenue which is 'south'.The 'Year','Quarter','Month' ,'Day' and 'Region' was filtered out in order to be able to know the actual revenue based on any of the filtered criteria.
 
 
 <img width="612" alt="capstone sales" src="https://github.com/user-attachments/assets/c65fb2d2-cdd0-4a8f-824e-f8fb60d7e06c">
