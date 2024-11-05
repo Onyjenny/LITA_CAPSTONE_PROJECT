@@ -4,7 +4,7 @@
 
 ### Project Overview
 
-In today's data-driven world, the ability to interpret and leverage data has become a pivotal skill.For this project,I embarked on an analytical journey to unveil insights through data analysis.I was able to uncover trends and patterns within a diverse dataset
+In today's data-driven world, the ability to interpret and leverage data has become a pivotal skill.For this project,I embarked on an analytical journey to unveil insights through data analysis.I was able to uncover trends and patterns within a diverse dataset.
 
 ### Project Objectives
 
@@ -25,7 +25,7 @@ This project employeed a structured approach involving various data analysis too
    1. for data cleaning
    2. analysis and visualization
  - Structured Query Language (SQL)
-   1. for quering
+   1. for querying
    2. extraction and manipulation of data
  - PowerBI for visualization and report
  - Github for portfolio building.
