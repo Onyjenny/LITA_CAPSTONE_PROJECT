@@ -65,6 +65,7 @@ regional breakdowns.
 
 ### Results and Interpretation
 
+
 <img width="952" alt="Excel 1" src="https://github.com/user-attachments/assets/67e7a74a-5d6a-4651-83cf-0bcbb1805b5d">
 
 These pivot table summarizes the total sales by product,region,month and Average sales per product,total revenue by region.
@@ -89,7 +90,7 @@ After sorting my product column,I was able to calculate average for each product
 
 =SUM(H2:H9922) = 2101090 as Total revenue
 
-SQL
+
 ```SQL
 
 ---1 Total sales for each Product category----
