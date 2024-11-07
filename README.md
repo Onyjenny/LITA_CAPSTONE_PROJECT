@@ -71,7 +71,7 @@ These pivot table summarizes the total sales by product,region,month and Average
 
 I was able to deduce that the top selling product is 'shoe' with a value of 613,380 and the least selling product is 'socks' with a value of 180,785.Also the 'South' region has the highest revenue  which is 927,820 while the 'west' region has the least revenue has 300,345.In the year 2023,Sales was made in the month of January to December and  February has the higest revenue of '247,500' while April has the slowest sales with revenue of '7,425' and the total revenue for 2023 is 1,105,330. While in 2024 sales was made in the month of February to July, February is also the highest sales month with revenue of '298,800' and July the slow sales month with revenue of '37,200', the total revenue for 2024 is 995,760 and both year totals a revenue of 2,101,090.
 
-Excel formula was also used to calculate average sales per product  and total revenue by region,the formular used is;
+Excel formula was also used to calculate average sales per product and total revenue by region,the formular used is;
 
  =AVERAGEIF(C2:C9922,C2,H2:H9923) SOCKS = 122 
 
@@ -89,7 +89,7 @@ After sorting my product column,I was able to calculate average for each product
 
 =SUM(H2:H9922) = 2101090 as Total revenue
 
-
+SQL
 ```SQL
 
 ---1 Total sales for each Product category----
