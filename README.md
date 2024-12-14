@@ -99,6 +99,8 @@ FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
 ORDER BY 2 DESC;
 
+<img width="338" alt="totalsales output" src="https://github.com/user-attachments/assets/b3c46823-6e0e-4328-b0af-7a869b820ba4" />
+
 ----2 Number of sales Transaction in each Region---
 SELECT Region,COUNT(Revenue) AS Number_of_Sales
 FROM [dbo].[LITACapstoneDataset]
