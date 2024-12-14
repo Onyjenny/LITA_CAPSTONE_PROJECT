@@ -148,6 +148,20 @@ HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());
 ```
 <img width="338" alt="totalsales output" src="https://github.com/user-attachments/assets/b3c46823-6e0e-4328-b0af-7a869b820ba4" />
 
+<img width="311" alt="number of sales output" src="https://github.com/user-attachments/assets/3a92e3a2-00c8-4a87-b0f5-94c38305ca5b" />
+
+<img width="337" alt="highest selling product output" src="https://github.com/user-attachments/assets/c0e44361-d178-49f7-820e-fbae3a15b034" />
+
+<img width="315" alt="total revenue by product output" src="https://github.com/user-attachments/assets/4f5c97bd-1e3b-4c08-969b-e4240d79b693" />
+
+<img width="256" alt="monthly sales output" src="https://github.com/user-attachments/assets/de6890be-ee31-4377-9c00-0d221960e39d" />
+
+<img width="336" alt="top 5 customers" src="https://github.com/user-attachments/assets/cb587ac0-6cd4-4bf3-81e6-8713dca9fa57" />
+
+<img width="266" alt="percentage of totalsales" src="https://github.com/user-attachments/assets/6a70c323-cd0f-45c2-9c95-cf2d25d0f884" />
+
+<img width="209" alt="last quarter no sales output" src="https://github.com/user-attachments/assets/65526e65-0391-4a17-951b-a68eb9436208" />
+
 
 
 ### Data visualization
