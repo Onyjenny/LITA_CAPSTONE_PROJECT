@@ -99,8 +99,6 @@ FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
 ORDER BY 2 DESC;
 
-<img width="338" alt="totalsales output" src="https://github.com/user-attachments/assets/b3c46823-6e0e-4328-b0af-7a869b820ba4" />
-
 ----2 Number of sales Transaction in each Region---
 SELECT Region,COUNT(Revenue) AS Number_of_Sales
 FROM [dbo].[LITACapstoneDataset]
@@ -148,11 +146,13 @@ FROM [dbo].[LITACapstoneDataset]
 GROUP BY Product
 HAVING MAX(OrderDate) < DATEADD(QUARTER,-1,GETDATE());
 ```
+<img width="338" alt="totalsales output" src="https://github.com/user-attachments/assets/b3c46823-6e0e-4328-b0af-7a869b820ba4" />
+
+
 
 ### Data visualization
 
 Interactive dashboards and visual representations were created to make the insights found in excel, SQL accessible and engaging such as overview of all sales,top performing product and the regional breakdowns using PowerBI.The visuals shows the highest selling product which is 'shoe',the region with the highest revenue which is 'south'.The 'Year','Quarter','Month' ,'Day' and 'Region' was filtered out in order to be able to know the actual revenue based on any of the filtered criteria.
-
 
 <img width="612" alt="capstone sales" src="https://github.com/user-attachments/assets/c65fb2d2-cdd0-4a8f-824e-f8fb60d7e06c">
 
